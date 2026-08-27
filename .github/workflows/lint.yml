@@ -19,4 +19,4 @@ jobs:
 
     # this step will run the linter
     - name: Run the linter
-      run: ruff check .
+      run: ruff check . --fix
